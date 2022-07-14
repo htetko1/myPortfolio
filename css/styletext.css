@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Syncopate:wght@400;700&display=swap");
+:root {
+    --font-primary: "Syncopate", sans-serif;
+}
+
+
+/* html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+} */
+
+
+/* body {
+    font-family: var(--font-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #111416;
+    color: #818486;
+} */
+
+.ul_text {
+    /* padding: 0;
+    margin: 0; */
+}
+
+.li_text {
+    --color-hover: #cb54ac;
+    --color-active: #ffffff;
+    --color-start: #010406;
+    --stop-hover: 0%;
+    --stop-active: 0%;
+    list-style: none;
+    /* padding: 0;
+    margin: 0; */
+    /* font-size: clamp(2rem, 12vw, 5rem); */
+    font-weight: bold;
+    /* line-height: 0.88; */
+    background: white;
+    background: -webkit-gradient( linear, left top, right top, from(var(--color-hover)), color-stop(var(--color-active)), color-stop(var(--color-active)), to(var(--color-start)));
+    background: linear-gradient( 90deg, var(--color-hover) var(--stop-hover), var(--color-active) var(--stop-hover), var(--color-active) var(--stop-active), var(--color-start) var(--stop-active));
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: -webkit-transform 0.48s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: -webkit-transform 0.48s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.48s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.48s cubic-bezier(0.475, 0.425, 0, 0.995), -webkit-transform 0.48s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.li_text:hover {
+    --stop-hover: 100%;
+    -webkit-transform: translateX(0.3ch);
+    transform: translateX(0.3ch);
+}
+
+.li_text:nth-child(1) {
+    --color-hover: #fad089;
+}
+
+.li_text:nth-child(2) {
+    /* --color-hover: #ff9c5b; */
+    --color-hover: #27ade4;
+}
+
+.li_text:nth-child(3) {
+    --color-hover: #f5634a;
+}
+
+
+/* .li_text:nth-child(4) {
+    --color-hover: #27ade4;
+}
+
+.li_text:nth-child(5) {
+    --color-hover: #60b99a;
+} */
+
+
+/* <i style="color: rgb(87, 194, 78);" class="fas fa-university mx-1"></i> */
+
+
+/* <i style="color: rgb(204, 0, 255);" class="fas fa-users-class mx-1"></i> */
+
+
+/* <i style="color: rgb(17, 17, 17);" class="fas fa-book mx-1"></i> */
+
+
+/* https://greensock.com/docs/v3/Installation?checked=core,customEase#CDN */
+
+
+/*# sourceMappingURL=style.css.map */
